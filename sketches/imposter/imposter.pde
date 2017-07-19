@@ -10,7 +10,6 @@ void draw() {
 background(204, 240, 223);
 noStroke();
 
-
 fill(0, 96, 199);
 textSize(32);
 text("IMPOSTER SYNDROME", 16, 64);
@@ -25,9 +24,9 @@ fill(128, 147, 245);
 triangle(xcenter, ycenter + 20, xcenter - 30, ycenter + 130, xcenter +30, ycenter + 130);
 //face
 fill(255, 229, 178);
-arc(xcenter, ycenter + 2, 114, 123, 0, 180); 
+arc(200, 219, 114, 123, 0, PI);
 //eyes
 fill(0, 106, 110);
 ellipse (xcenter - 25, ycenter + 15, eyesize, eyesize);
 ellipse (xcenter + 25, ycenter + 15, eyesize, eyesize);
-}
+};
