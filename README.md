@@ -1,2 +1,3 @@
 # shuki13.github.io
-my website
+Hi, I am Shu-Ki!
+I am here to make a github webpage
