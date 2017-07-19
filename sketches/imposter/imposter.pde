@@ -12,7 +12,7 @@ noStroke();
 
 
 fill(0, 96, 199);
-textSize(38);
+textSize(32);
 text("IMPOSTER SYNDROME", 16, 64);
 
 strokeWeight(2);
