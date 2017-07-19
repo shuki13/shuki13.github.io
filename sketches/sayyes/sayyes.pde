@@ -17,5 +17,5 @@ void draw() {
     text("SAY \nYES", x, y);
     
     popMatrix();
-    a = a + 1/3;
+    a = a + 1/9;
 };
