@@ -51,7 +51,7 @@ strokeWeight(2);
     stroke(0, 0, 0);
     noFill();
     arc(xcenter+180, ycenter + 63, 19, 45, 0, PI); 
-    line(290, 278, 290, 293);
+    line(295, 278, 295, 293);
     fill(196, 196, 196);
     noStroke();
     ellipse(290, 297, 10, 10);
