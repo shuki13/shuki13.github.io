@@ -54,5 +54,5 @@ strokeWeight(2);
     line(295, 278, 295, 293);
     fill(196, 196, 196);
     noStroke();
-    ellipse(295, 232, 10, 10);
+    ellipse(295, 297, 10, 10);
 };
