@@ -38,7 +38,7 @@ void draw() {
     rect(x + 15, 178+y, 70, 40);
     
     // draw the wheels
-    fill(77, 66, 66);
+    fill(15, 15, 15);
     ellipse(x + 25, 221+y, 24, 24);
     ellipse(x + 75, 221+y, 24, 24);
     
