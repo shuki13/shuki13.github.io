@@ -1,9 +1,14 @@
+void setup() {
+  size(400, 400);
+}
+
+void draw() {
+
 var currentScene;
 
 var drawScene1 = function() {
     currentScene = 1; 
     background(36, 45, 99);
-    
     noStroke();
     //body
     fill(194, 39, 39);
@@ -278,7 +283,7 @@ var drawScene9 = function() {
     text("I'm Done!!!", 267, 118);
 };        
     
-mouseClicked = function() {
+mouseClicked() {
     if (currentScene === 1) {
         drawScene2();
     } else if (currentScene === 2) {
@@ -301,3 +306,4 @@ mouseClicked = function() {
 };
     
 drawScene1();
+};
