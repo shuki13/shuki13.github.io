@@ -9,7 +9,7 @@ void setup() {
 void draw() {
     background(240, 251, 255);
     pushMatrix();
-    translate(63, 63);
+    translate(54, 54);
     rotate(a);
     
     fill(201, 52, 171);
